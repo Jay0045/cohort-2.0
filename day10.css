@@ -1,0 +1,100 @@
+@font-face{
+    font-family: apple;
+    src: url(./sf-pro-display_regular.woff2)
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    
+}
+#main #nav{
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: apple;
+    gap: 30px;
+    font-size: 19px;
+}
+
+#main h4{
+    font-family: apple;
+    color: white;
+    font-weight: 500;
+    font-size: 19px;  
+}
+#nav a{
+    text-decoration: none;
+    color: white;
+}
+
+#center{
+    height: 90%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    font-family: apple;
+    background-image: url(https://www.apple.com/v/iphone-17-pro/d/images/overview/welcome/hero__bdntboqignj6_medium_2x.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+#center h1{
+    color: white;
+    font-size: 78px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 50px;
+}   
+
+#center h5{
+    color: white;
+    font-size: 38px;
+    font-weight: 500;
+    
+    text-align: center;
+    padding-top:10px;
+}   
+
+#link{
+    height: 680px;
+    width: 100%;
+    display:flex;
+    align-items: flex-end;  
+    justify-content: center;
+    gap: 22px;
+    padding-top: 30px;
+}
+
+#link button{
+    height: 45px;
+    width: 90px;
+    border-radius: 45px;
+    border: none;
+    background-color: royalblue;
+    font-family: apple;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#link button a{
+    text-decoration: none;;
+    color: white;
+}
