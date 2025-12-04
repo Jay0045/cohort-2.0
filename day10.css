@@ -50,7 +50,7 @@ html,body{
     width: 100%;
     background-color: rgb(0, 0, 0);
     font-family: apple;
-    background-image: url(https://www.apple.com/v/iphone-17-pro/d/images/overview/welcome/hero__bdntboqignj6_medium_2x.jpg);
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_large_2x.jpg);
     background-size: cover;
     background-position: top;
 }
@@ -67,34 +67,40 @@ html,body{
     color: white;
     font-size: 38px;
     font-weight: 500;
-    
+    padding: auto;
     text-align: center;
     padding-top:10px;
 }   
 
 #link{
-    height: 680px;
+    height: 70px;
     width: 100%;
     display:flex;
-    align-items: flex-end;  
+    align-items: center;
     justify-content: center;
     gap: 22px;
-    padding-top: 30px;
+    
 }
 
 #link button{
     height: 45px;
-    width: 90px;
+    width: 120px;
     border-radius: 45px;
-    border: none;
+    border-color: royalblue;
+    color: white;
+    
     background-color: royalblue;
     font-family: apple;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     cursor: pointer;
 }
 
-#link button a{
-    text-decoration: none;;
-    color: white;
+button a{
+    text-decoration: none;
+    color: white    ;
 }
+#link button:hover{
+    /* background-color: transparent; */
+    color: rgb(140, 163, 233);
+}   
