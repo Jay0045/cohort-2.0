@@ -1,0 +1,96 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1763979210770-d3762a73d8dd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDM4fHcxNUhmUW95elhVfHxlbnwwfHx8fHw%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    display: flex;
+    
+    flex-wrap: wrap;
+    position: absolute;
+    z-index: 3;
+}
+
+#main video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: 1;
+}
+
+#main  .card{
+    margin: 20px;
+}
+.card{
+    position: relative;
+    height: 300px;
+    width: 200px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all ease 5s;
+    z-index: 2;
+}
+
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.bottom {
+    
+    height: 32%;
+    width: 100%;
+    position: absolute;
+    bottom: -32%;
+    background: linear-gradient(transparent, black);
+    transition: all ease 1s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    z-index: 5;
+}
+
+.card:hover .bottom{
+    bottom: 0%;
+}
+
+.bottom h3{
+    font-size: 20px;
+    padding: 2px 3px ;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: aliceblue;
+
+}
+
+.bottom h2{
+    font-size: 28px;
+    text-transform: capitalize;
+    color: aliceblue;
+}
